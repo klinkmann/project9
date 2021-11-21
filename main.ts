@@ -68,5 +68,11 @@ input.onGesture(Gesture.Shake, function(){
         else{
             basic.showString("D")
         }
+        if(currentPlayer < players){
+            currentPlayer =+ 1
+        }
+        else{
+            currentPlayer = 1
+        }
     }
 })
